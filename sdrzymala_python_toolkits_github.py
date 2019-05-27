@@ -5,7 +5,7 @@ import os
 import argparse
 
 # user variables
-parser = argparse.ArgumentParser(description='python toolkit github - clone all repositories from account')
+parser = argparse.ArgumentParser(description='python toolkit github - clone all repositories from github saccount')
 parser.add_argument('--github_account_name', type=str, help='github account name', default='sdrzymala')
 parser.add_argument('--local_repositoey_directory', type=str, help='local repository directory', default=r'/home/sdrzymala/code/github')
 args = parser.parse_args()
